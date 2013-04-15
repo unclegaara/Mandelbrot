@@ -1,5 +1,4 @@
 import math
-z = []
 class Complex(object):
     def __init__(self, re, im):
         self.re = re
