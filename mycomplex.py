@@ -21,3 +21,6 @@ class Complex(object):
 
     def abs(self):
         return math.sqrt(self.re * self.re + self.im * self.im)
+
+    def abs2(self):
+        return self.re * self.re + self.im * self.im
